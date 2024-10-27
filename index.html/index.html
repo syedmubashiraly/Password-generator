@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random <span>Password Generator</span></h1>
+        <div class="display">
+            <input type="text" id="Password" placeholder="Password">
+            <img src="assets/copy.png" alt="">
+        </div><br>
+        <label id="capacity">Length: 25</label>
+        <input id="count" type="range" value="25" min="0" max="50" step="1"><br>
+        <br>
+        <div class="settings">
+            ABC <input checked="true" id="cap" type="checkbox">
+            abc <input checked="true" id="low" type="checkbox">
+            123 <input checked="true" id="num" type="checkbox">
+            #&$ <input checked="true" id="Symbol" type="checkbox">
+        </div>
+        <button><img src="assets/generate.png" alt="">Generate Password</button>
+    </div>
+</body>
+</html>
